@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0; 
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-memphis-playful-portfolio-pink-image_593418.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    align-content:flex-start;
+      
+}
+
+header {
+    background:darksalmon;
+    padding: 20px 10%;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+#home {
+    background: #f4f4f4;
+    padding: 60px 10%;
+    background-color:pink;
+}
+
+.profile-picture {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 3px solid #333; 
+    margin-bottom: 1rem; 
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #6c4308;
+}
+
+.about, .skills, .projects, .contact {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
